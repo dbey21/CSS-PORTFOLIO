@@ -1,0 +1,156 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+
+html {
+  height: 100%;
+}
+
+
+
+body{
+  min-height: 100%;
+  line-height: 1.5;
+  font-family: sans-serif;
+  color:whitesmoke;
+  text-align: none;
+  background-color: rgb(117, 117, 184);
+  background-image: url("images/pexels-johannes-plenio-1103970\ \(1\).jpg");
+  font-size: medium;
+
+  }
+
+  .title{
+    background-color: rgba(40, 226, 183, 0.268);
+      margin: 0%;
+    text-align: center;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 58px;
+    border: double 15px whitesmoke
+  
+  }  
+
+
+.links{
+text-align: right;
+background-image: url(images/pexels-johannes-plenio-1103970\ \(1\).jpg);
+text-shadow:rgb(1, 3, 4) 2px 0 20px;
+font-size: larger;
+border: 50%;
+
+}
+
+.section{
+  display: flex;
+  max-width: 84%;
+  height: auto;
+  
+  
+  
+}
+
+.left-side{
+  width: 24%;
+  padding: 2%;
+  
+}
+
+.right-side{
+  width: 90%;
+  border: solid whitesmoke;
+  margin: 5%;
+  background-color: #4db6acc4;
+  height: 212px;
+  
+
+}
+
+
+.fit-picture{
+  width: 105px;
+  height: 86px;
+
+}
+.fit-picture2{
+  width: 310px;
+  
+
+}
+
+.fit-picture3{
+  width: 100px;
+height: 207px;
+width: 311px
+}
+
+
+.section-contact-me{
+ border: solid 10px whitesmoke;
+}
+
+
+
+
+h1 {
+  text-align: center;
+  padding-left: 1%;
+  
+  
+}
+
+
+
+h2{
+text-align:center;
+color: (23, 21, 21);
+display:inline-block
+}
+
+
+
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+​input, 
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+​ol,
+ul {
+  list-style: none;
+}
+
+.links:hover{
+background-color: antiquewhite;
+}
+
+.right-side-end{
+  width: 24%;
+  padding: 2%;
+}
+
+@media screen and (max-width: 1080px) {
+  .right-side {height: 500px; width: 250px;}
+  
+}
